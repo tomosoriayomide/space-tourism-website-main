@@ -33,11 +33,13 @@ body{
   height: 100vh;
   /* display: none; */
   background: url(./starter-code/assets/crew/background-crew-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .background{
   background-color: red;
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .nav a {
   text-decoration: none;
@@ -165,7 +167,7 @@ h1 {
 @media screen and (min-width: 300px) and (max-width: 749px) {
   body {
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     padding: 0px;
     /* margin: 0px; */
    
@@ -174,6 +176,10 @@ h1 {
    background-repeat: no-repeat;
     background-size: cover;
     /* background-position: center center; */
+  }
+  .text{
+    width: 100%;
+    padding: 0px;
   }
   .body {
     /* background-color: greenyellow; */
@@ -251,7 +257,7 @@ h1 {
       <div class="color"></div>
       <nav class="nav">
         <div class="bar">
-          <a href="./indexes.html">00 Home </a>
+          <a href="./index.html">00 Home </a>
           <a href="./destination-moon.html">01 Destination</a>
           <a href="./crew-commander.html" id="home">02 Crew</a>
           <a href="./technology-vehicle.html">03 Technology</a>
